@@ -1,0 +1,116 @@
+
+
+
+
+/* General Styles */
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url("../public/images/cloudy.avif");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Glassmorphism Weather Container */
+.weather-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  width: 450px;
+  color: white;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 20px;
+  color: black;
+
+}
+
+.weather-container h2 {
+  color: white;
+  font-size: 40px
+}
+
+/* Input Field */
+input {
+  width: 85%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+/* Placeholder Color */
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Stylish Button */
+button {
+  background: linear-gradient(45deg, #2c75ea, #63d4fd);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 15px rgba(255, 126, 95, 0.4);
+}
+
+button:hover {
+  background: linear-gradient(45deg, #3191e4, #3496e1);
+  transform: scale(1.05);
+}
+
+/* Weather Info */
+.weather-info {
+  margin-top: 15px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.weather-info p {
+  margin-block: 25px;
+}
+
+/* Weather Details */
+.weather-info h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+  .weather-container {
+    width: 90%;
+  }
+
+  input {
+    width: 90%;
+  }
+}
