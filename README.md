@@ -70,7 +70,7 @@ npm start
 ![Home Page](./frontend/screenshots/Home.png)  
 
 ### 🌦️ Weather Result
-![Result Page](screenshots/Result.png)
+![Result Page](./frontend/screenshots/Result.png)
 
 ---
 
