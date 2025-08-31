@@ -68,9 +68,9 @@ npm start
 ## 📸 Screenshots
 ### 🌤️ Home Page
 ![Home Page](./frontend/screenshots/Home.png)  
-![Result Page](./frontend/screenshots/Result.png)  
+
 ### 🌦️ Weather Result
-![Weather App - Result](screenshots/Result.png)
+![Result Page](screenshots/Result.png)
 
 ---
 
