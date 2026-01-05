@@ -18,7 +18,7 @@ It fetches real-time weather data and displays it with a clean, glassmorphism-st
 - **Frontend**: React.js, CSS  
 - **Backend**: Node.js, Express.js  
 - **API**: OpenWeather API  
-- **Deployment**: (Add later — e.g. Vercel/Netlify for frontend, Render/Heroku for backend)
+
 
 ---
 
